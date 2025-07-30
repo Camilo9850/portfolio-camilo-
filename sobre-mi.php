@@ -26,7 +26,7 @@ $pagina = "sobre-mi";
             <div class="row">
                 <div class="col-12 col-sm-7">
                     <h1 class="col-12 py-5">Sobre mí</h1>
-                    <p>Apasionado por la tecnología y gestión de proyectos. Soy desarrollador programación Full
+                    <p>Apasionado por la tecnología y gestión de proyectos. Soy docente de cursos de programación Full
                         Stack y de Base de datos.</p>
                     <a href="contacto.html" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
                 </div>
