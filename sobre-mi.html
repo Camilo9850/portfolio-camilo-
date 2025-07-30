@@ -1,9 +1,5 @@
-<?php
-$pagina = "sobre-mi";
-?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,12 +12,40 @@ $pagina = "sobre-mi";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body id="sobre-mi" class="d-flex flex-column h-100">
     <header class="container">
-        <?php include_once "menu.php"; ?>
+        <!-- Menú copiado directamente -->
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active px-4" href="sobre-mi.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="proyecto.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="float-sm-end">
+                            <a class="btn btn-rojo" href="images/Hoja de vida 2025  25.pdf">Descargar mi CV <i class="fa-solid fa-download"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
+     <main>
         <section id="bio" class="container">
             <div class="row">
                 <div class="col-12 col-sm-7">
@@ -317,7 +341,7 @@ $pagina = "sobre-mi";
 
         </section>
     </main>
-    <footer class="container mt-auto py-4">
+        <footer class="container mt-auto py-4">
         <div class="row">
             <div class="col-sm-3 col-12">
                 <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
@@ -327,7 +351,7 @@ $pagina = "sobre-mi";
                 Sponsor <a href="https://depcsuite.com">DePC Suite</a>
             </div>
             <div class="col-sm-3 col-12">
-                <a href="mailto:info@nelsontarche.com.ar">info@nelsontarche.com.ar</a>
+                <a href="mailto:info@camilorincon9850@gmail.com">info@camilorincon9850@gmail.com</a>
             </div>
         </div>
        <a href="https://api.whatsapp.com/send?phone=573219264943" target="_blank">
@@ -335,5 +359,4 @@ $pagina = "sobre-mi";
 </a>
     </footer>
 </body>
-
 </html>
